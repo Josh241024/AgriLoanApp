@@ -1,0 +1,72 @@
+/* BasicinfoAcceptingloan.css */
+
+.basic-acceptingloan-page {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .basicacceptingloanheader {
+    width: 250px;
+    background-color: #f05737;
+    padding: 20px;
+    color: white;
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fix the sidebar to the left */
+    top: 0;
+    left: 0;
+    overflow: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .basicinfoacceptingloan {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Leave space for the sidebar */
+  }
+  
+  .basicinfoacceptingloan .lead-number {
+    font-weight: bold;
+    color: #f05737;
+  }
+  
+  .right-sidebarbasicinfoacceptingloan {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fix the sidebar to the right */
+    top: 0;
+    right: 0;
+    overflow: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .right-sidebarbasicinfoacceptingloan img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .right-sidebarbasicinfoacceptingloan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .right-sidebarbasicinfoacceptingloan ul li {
+    margin-bottom: 10px;
+    color: #f05737;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .right-sidebarbasicinfoacceptingloan ul li:hover {
+    text-decoration: underline;
+  }
+
+  .basicinfoacceptingcontinue-button
+  {
+    width: min-content;
+  }
+  

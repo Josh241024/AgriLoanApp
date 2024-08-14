@@ -1,0 +1,163 @@
+.Carddetailscontainer{
+  box-shadow:0 4px 2px rgb(155, 130, 238);
+  width: 1000px;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  margin-left:255px;
+}
+h1{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 55px;
+  padding-top: 55px;
+}
+/* CardDetails.css */
+.cardiApplyOnlineContainer {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.Carousel {
+  flex: 3; /* Make the carousel bigger */
+  margin-right: 20px;
+}
+
+.applyOnlineSection {
+  flex: 1; /* Make the Apply Online section smaller */
+  text-align: center;
+}
+
+.cardiApplyOnlinepara {
+  margin-bottom: 10px;
+  font-size: 16px; /* Slightly smaller font size */
+  box-shadow:0 4px 2px rgb(155, 130, 238);
+
+}
+
+.cardiApplyOnlinebutton {
+  padding: 10px 15px; /* Slightly smaller padding */
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardiApplyOnlinebutton:hover {
+  background-color: #e65c00;
+}
+
+.Assistancemaincontainer {
+  margin-top: 40px;
+}
+
+.Assistancephonenumnumbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Assistancephonenumcontent {
+  text-align: center;
+  margin: 20px;
+}
+
+.Assistancephonenumcontent img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+/*
+.Assistancephonenumnumbers
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Assistancephonenumcontent
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.Assistancemaincontainer
+{
+   display: flex;
+}*/
+.Assistancemaincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.Assistancemaincontainer h2 {
+  font-size: 24px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.Assistancephonenumnumbers {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Assistancephonenumcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.Assistancephonenumcontent img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.Assistancephonenumcontent p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333333;
+}
+
+.Assistancephonenumcontent.numbers p:nth-child(3),
+.Assistancephonenumcontent.numbers p:nth-child(4) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e94e1b;
+}
+
+.Assistancephonenumcontent.tollfree p:nth-child(5) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e94e1b;
+}
+
+.Assistancephonenumcontent.asist p:nth-child(2),
+.Assistancephonenumcontent.help p:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1b72e9;
+}
+
+.Assistancephonenumcontent.asist p:nth-child(3),
+.Assistancephonenumcontent.help p:nth-child(3) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1b72e9;
+}

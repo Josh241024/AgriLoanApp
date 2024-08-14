@@ -1,0 +1,85 @@
+/* AdminHome.css */
+
+.admin-home-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .admin-sidebar {
+    width: 20%;
+    background-color: #f4f4f4; 
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-sidebar-header {
+    margin-bottom: 20px;
+  }
+  
+  .admin-sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-main-content {
+    width: 60%;
+    padding: 20px;
+  }
+  
+  .admin-right-sidebar {
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-right-sidebar h6 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-overview {
+    margin-bottom: 20px;
+  }
+  
+  .admin-overview p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .admin-right-sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-right-sidebar .MuiListItem-button {
+    margin-bottom: 10px;
+  }
+  
+  .admin-right-sidebar .MuiTypography-body2 {
+    margin-top: 20px;
+  }
+  .admin-reports-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Adjust the gap between sections as needed */
+  }
+  
+  .admin-reports-table {
+    max-height: 300px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
+  .admin-sidebar, .admin-main-content, .admin-right-sidebar {
+    /* Ensure proper layout if needed */
+    box-sizing: border-box;
+  }
+  .admin-reports-container-basicinfo
+  {
+    width: 825px;
+  height: 200px;
+  border: 1px solid rgb(222, 222, 222);
+  overflow: auto;
+  padding: 10px;
+
+  }
+  

@@ -1,0 +1,109 @@
+/* General Page Layout */
+.basic-information-page-otp {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px;
+    align-items: center;
+}
+
+/* Header Section */
+.basicinformation-final-otp {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.basicinfoheaderotp {
+    margin-bottom: 10px;
+}
+
+.basicinfoheaderotp h6 {
+    font-size: 24px;
+    color: #333;
+}
+
+.basicinfoheaderotp p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Form Container */
+.basicinfootpcontainer {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;  /* Increased width */
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Form Elements */
+.basicinfootpcontainer .MuiTextField-root {
+    margin-bottom: 20px;
+}
+
+.basicinfootpcontainer .MuiFormControlLabel-root {
+    margin-left: 0;
+}
+
+.basicinfootpcontainer .MuiCheckbox-root {
+    color: #f05737;
+}
+
+/* Application ID Section */
+
+
+/* Button Styles */
+.basicinfootpcontainer .basicinfootp {
+    background-color: #f05737;
+    color: white;
+
+}
+
+.basicinfootpcontainer .basicinfootp:hover {
+    background-color: #e04e2d;
+}
+#otptrialfinal
+{
+    width: 1000px;
+}
+
+/* Button Layout */
+.basicinfootpcontainer .basicinfootp + .basicinfootp {
+    margin-left: 15px;
+}
+
+.basicinfootpcontainer .MuiButton-outlined {
+    border-color: #f05737;
+    color: #f1cec7;
+}
+
+.basicinfootpcontainer .MuiButton-outlined:hover {
+    border-color: #e04e2d;
+    color: #ffffff;
+}
+
+/* Checkbox and Label */
+.basicinfootpcontainer .MuiFormControlLabel-label {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .basicinfootpcontainer {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .basicinfootpcontainer .basicinfootp {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .basicinfootpcontainer .basicinfootp + .basicinfootp {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,102 @@
+#basicInfoAccountPage {
+  display: flex;
+  min-height: 100vh;
+}
+
+#basicInfoAccountSidebar {
+  width: 250px;
+  background-color: #f05737;
+  padding: 20px;
+  color: white;
+}
+
+#basicInfoAccountSidebarHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#basicInfoAccountLogo {
+  width: 50px;
+  height: 50px;
+}
+
+#basicInfoAccountSidebarContent {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#basicInfoAccountMainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#basicInfoAccountContainer {
+  max-width: 1000px;
+}
+
+#basicInfoAccountDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#basicInfoAccountDetailsInnerContainer {
+  width: 100%;
+}
+
+#basicInfoAccountDetailsTitle {
+  margin-bottom: 20px;
+}
+
+#basicInfoAccountForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#basicInfoAccountNumber,
+#basicInfoLoanAmount,
+#basicInfoLoanRequestedFor {
+  margin-bottom: 20px;
+}
+
+#basicInfoSubmitButton {
+  margin-top: 20px;
+}
+
+#basicInfoAccountRightSidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+#basicInfoAccountRightSidebarLogo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#basicInfoAccountSidebarList {
+  list-style: none;
+  padding: 0;
+  padding-top: 50px;
+}
+
+#basicInfoAccountSidebarList .apply-now-sidebar-item {
+  margin-bottom: 10px;
+  color: #f05737;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#basicInfoAccountSidebarList .apply-now-sidebar-item:hover {
+  text-decoration: underline;
+}

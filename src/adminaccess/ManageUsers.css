@@ -1,0 +1,18 @@
+/* ManageUsers.css */
+.admin-manage-users {
+    margin-top: 20px;
+  }
+  
+  .admin-manage-users .MuiTableContainer-root {
+    margin-bottom: 20px;
+  }
+  
+  .admin-manage-users .MuiButton-root {
+    margin-right: 8px;
+  }
+  .table-container {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  
